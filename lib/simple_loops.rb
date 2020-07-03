@@ -16,5 +16,9 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.each { |i| i.to_s }
+  counter = 0 
+  while counter < array.length do 
+    array[counter].to_s 
+    counter +=1 
+  end
 end
