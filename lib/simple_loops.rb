@@ -16,5 +16,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.counter { |i| String(i)}
+  array.each { |i| String(i)}
 end
