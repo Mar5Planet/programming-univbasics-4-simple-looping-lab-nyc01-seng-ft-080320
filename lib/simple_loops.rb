@@ -1,2 +1,2 @@
 # Write your methods here
-loop_message_five_times(element)
+loop_message_five_times(message)
