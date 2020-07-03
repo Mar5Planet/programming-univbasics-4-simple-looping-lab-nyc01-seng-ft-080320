@@ -6,3 +6,7 @@ end
 def loop_message_n_times(message, m_int)
   m_int.times { puts message}
 end
+
+def output_array(array) 
+
+end
