@@ -17,5 +17,4 @@ end
 
 def return_string_array(array)
   array.counter { |i| String(i)}
-  end
 end
